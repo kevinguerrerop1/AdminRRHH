@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/space.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.btn {
+    background: #179388;
+    color: #000000;
+    width: 140px;
+    height: 50px;
+    border-style: hidden;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 200;
+    color: white;
+}
+
+.a {
+    font-size: large;
+    background-color: #179388;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.c {
+    border-style: hidden;
+    background: #ffffff;
+    width:60%;
+    height: 50%;
+    margin: auto;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.b {
+    border-style: groove; 
+    border-color: #aaaaaa;
+    border-radius: 15px;
+    border-width: 1px;
+    width: 100%;
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+.d {
+    border-style: hidden;
+    border-radius: 15px;
+    width: 100%;
+    font-size: larger;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #179388;
+    color: #ffffff;
+}

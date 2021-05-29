@@ -1,0 +1,98 @@
+body {
+    background-image: url("bg.jpeg");
+    background: #aaaaaa;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    background: #179388;
+    color: #000000;
+    width: 140px;
+    height: 50px;
+    border-style: hidden;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 200;
+    color: white;
+}
+
+.a {
+    border-style: hidden;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 60px;
+    font-size: medium;
+}
+
+.c {
+    border-style: hidden;
+    background: #ffffff;
+    width:40%;
+    height: 50%;
+    margin: auto;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    font-size: large;
+}
+
+.custom-select select {
+    display: none;
+}
+
+.select-selected {
+    background-color: #fff;
+}
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #179388 transparent transparent transparent;
+
+}
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #179388 transparent;
+    top: 7px;
+
+}
+
+.select-items div,.select-selected {
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: gainsboro;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: #179388;
+}
